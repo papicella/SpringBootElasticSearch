@@ -1,0 +1,8 @@
+applications:
+ - name: pas-sb-elastic
+   memory: 450M
+   path: ./target/SpringBootElasticSearch-0.0.1-SNAPSHOT.jar
+   instances: 1
+   host: pas-sb-elastic
+   buildpack: java_buildpack
+   domain: mybluemix.net
